@@ -53,7 +53,7 @@ def send_command(command):
 
 ## Contact Me
 
-- **GitHub**: [shivag](https://github.com/captshiva007)
+- **GitHub**: [CaptShiva007](https://github.com/captshiva007)
 - **LinkedIn**: [Siva G](https://linkedin.com/in/captshiva007)
 - **Email**: [shivasepicjourney@gmail.com](mailto:shivasepicjourney@gmail.com)
 
