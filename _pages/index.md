@@ -53,11 +53,10 @@ def send_command(command):
 
 ## Contact Me
 
-- **GitHub**: [shivag](https://github.com/shivag)
-- **LinkedIn**: [Siva G](#)
-- **Email**: [shivacyber@example.com](mailto:shivacyber@example.com)
+- **GitHub**: [shivag](https://github.com/captshiva007)
+- **LinkedIn**: [Siva G](https://linkedin.com/in/captshiva007)
+- **Email**: [shivasepicjourney@gmail.com](mailto:shivasepicjourney@gmail.com)
 
-![Hacker Mindset](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 ---
 
