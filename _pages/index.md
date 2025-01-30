@@ -2,154 +2,64 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Siva G - (Aspiring😅)Cybersecurity Professional
 
-[Link to another page](./writeups.html).
+Welcome to my personal GitHub page! I'm **Siva G**, a cybersecurity master's graduate passionate about **red teaming, ICS/SCADA security, and military cybersecurity**. My work blends **digital forensics, threat hunting, and offensive security** to create innovative solutions.
 
-There should be whitespace between paragraphs.
+## About Me
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+I'm currently focused on specializing in **cybersecurity operations, red teaming, and ICS/SCADA security**. My goal is to secure a well-paying role in the field with a strong work-life balance and ever curious peers. I also have a keen interest in **developing a robust C2 framework using Rust, Python, Golang, and Discord**.
 
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
+> "Не шагу назад" *(Not a step back)*
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> Cybersecurity is more than a profession; it's a battlefield where only the strongest and smartest thrive.
 
-### Header 3
+## My Interests
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+- **Red Teaming & Exploitation**: Passionate about offensive security and developing C2 frameworks.
+- **ICS/SCADA Security**: Securing industrial control systems against cyber threats.
+- **Military Cybersecurity**: Preparing for a role in **cyber operations** with potential **TA officer aspirations**.
+- **Fitness & Adventure**: Swimming, running, and self-defence.
+
+### My Projects
+
+```rust
+// Rust-based security tool (example snippet)
+pub fn exploit() {
+    println!("Launching payload...");
+    // Payload execution logic
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+```python
+# Python-based C2 communication
+def send_command(command):
+    return f"Executing: {command}"
 ```
 
-<pre 
-  class="command-line" 
-  data-prompt="kali@kali $" 
-  data-output="4"
-><code class="language-bash"># Bash script with shell
-echo "flag{i_4m_a_f14g}" > flag.txt
-cat flag.txt
-flag{i_4m_a_f14g}
-rm flag.txt</code>
-</pre> 
+## Tools & Technologies
 
-<pre class="line-numbers" 
-  data-start="1" 
-  data-line="6-7"
-><code class="language-dart">// Dart code with line numbers
-// Line 6 and 7 are highlighted
+| Category       | Tools & Skills                          |
+|:--------------|:---------------------------------|
+| Programming   | Rust, Python, Go, Bash         |
+| Security      | Red Teaming, Threat Hunting    |
+| Forensics     | Sleuthkit, YARA, Volatility    |
+| Cloud         | Azure (AZ900, AZ500)      |
+| OS           | Kali Linux      |
 
-import 'dart:ui';
+## My Vision
 
-import 'package:shared_preferences_web/shared_preferences_web.dart';
-import 'package:url_launcher_web/url_launcher_web.dart';
+**Cybersecurity** is a never-ending chess game, and I aim to stay **several moves ahead**. Whether it's **securing industrial control systems** or **outmaneuvering adversaries in the digital battlefield**, my mission is to **test** the **boundaries of my limits**—preferably with a **strong cup of coffee** and an **optimized terminal setup**.
 
-import 'package:flutter_web_plugins/flutter_web_plugins.dart';
+## Contact Me
 
-// ignore: public_member_api_docs
-void registerPlugins(PluginRegistry registry) {
-  SharedPreferencesPlugin.registerWith(registry.registrarFor(SharedPreferencesPlugin));
-  UrlLauncherPlugin.registerWith(registry.registrarFor(UrlLauncherPlugin));
-  registry.registerMessageHandler();
-}</code></pre>
+- **GitHub**: [shivag](https://github.com/shivag)
+- **LinkedIn**: [Siva G](#)
+- **Email**: [shivacyber@example.com](mailto:shivacyber@example.com)
 
+![Hacker Mindset](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-#### Header 4
+---
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*This page is constantly evolving. Stay tuned for more updates!*
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
