@@ -18,7 +18,6 @@ I'm currently focused on specializing in **cybersecurity operations, red teaming
 
 - **Red Teaming & Exploitation**: Passionate about offensive security and developing C2 frameworks.
 - **ICS/SCADA Security**: Securing industrial control systems against cyber threats.
-- **Military Cybersecurity**: Preparing for a role in **cyber operations** with potential **TA officer aspirations**.
 - **Fitness & Adventure**: Swimming, running, and self-defence.
 
 ### My Projects
