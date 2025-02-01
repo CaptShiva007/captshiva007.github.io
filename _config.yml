@@ -49,5 +49,6 @@ collections:
       output: true
    notes:
       output: true
+      permalink: /notes/:path/
    blog:
       output: true
