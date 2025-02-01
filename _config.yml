@@ -47,7 +47,7 @@ collections:
       permalink: /:name
    writeups:
       output: true
-   solutions:
+   notes:
       output: true
    blog:
       output: true
