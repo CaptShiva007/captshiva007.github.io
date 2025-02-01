@@ -6,6 +6,7 @@ permalink: /notes/
 
 # Course Notes
 
-{% for note in site.notes %}
-- [{{ note.title }}]({{ note.url }})
+{% assign notes = site.static_files | where: "path", "/notes/AZ900" %}
+{% for note in notes %}
+- [{{ note.name }}]({{ note.path }})
 {% endfor %}
