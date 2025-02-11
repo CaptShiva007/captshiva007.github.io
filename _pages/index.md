@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Siva G - (Aspiring😅)Cybersecurity Professional
+# Siva G - (Aspiring)Cybersecurity Professional
 
 Welcome to my personal GitHub page! I'm **Siva G**, a cybersecurity master's graduate passionate about **red teaming, ICS/SCADA security, and military cybersecurity**. My work blends **digital forensics, threat hunting, and offensive security** to create innovative solutions.
 
