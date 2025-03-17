@@ -41,7 +41,7 @@ func executeCommands() {
 ```
 
 ```python
-//Also an actual code snippet from app.py
+#Also an actual code snippet from app.py
 def submit():
     data = request.get_json()
     agent_id = data.get("agent")
